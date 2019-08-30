@@ -1,6 +1,8 @@
-module github.com/gocolly/colly
+module github.com/jbaxter-va/colly
 
 go 1.12
+
+replace github.com/gocolly/colly => ./github.com/jbaxter-va/colly
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.0
